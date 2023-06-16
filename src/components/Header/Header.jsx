@@ -8,7 +8,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="bg-gray-300 py-2">
+    <header className="bg-gray-200 py-2">
       <div className="container mx-auto px-4 sm:px-0">
         <div className="flex justify-between items-center">
           {/* logo area */}

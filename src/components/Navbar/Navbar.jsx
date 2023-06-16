@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <ul className={`md:flex right-0 w-full absolute md:static duration-500 ${isMenuOpen ? "top-10" : "-top-40"} bg-gray-300 py-3 px-5 md:px-0`}>
+      <ul className={`md:flex right-0 w-full absolute md:static duration-500 ${isMenuOpen ? "top-10" : "-top-40"} bg-gray-200 py-3 px-5 md:px-0`}>
         <li className="md:ml-8">
           <ActiveLink to="/">Home</ActiveLink>
         </li>

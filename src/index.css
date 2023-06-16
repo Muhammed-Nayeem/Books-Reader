@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 /* custom tailwind css class */
-
+.badge {
+  @apply inline-block uppercase text-xs tracking-wide bg-yellow-400 text-teal-900 px-3 py-px mb-4 font-medium rounded-full;
+}
 .active {
   @apply font-medium text-blue-700 transition-colors duration-200 hover:text-blue-500;
 }
