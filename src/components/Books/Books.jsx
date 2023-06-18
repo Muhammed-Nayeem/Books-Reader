@@ -7,7 +7,7 @@ const Books = () => {
 
   return (
     <section>
-      <div className="container mx-auto px-4 sm:px-0">
+      <div className="container mx-auto px-4">
         <div className="text-center py-20">
           <h1 className="text-4xl text-gray-800 font-bold">Books Page</h1>
         </div>

@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
   return (
     <section className="py-16">
-      <div className="container mx-auto px-4 sm:px-0">
+      <div className="container mx-auto px-4">
         <article className="text-center mb-20">
           <h1 className="text-4xl font-bold text-gray-800 mb-5">A reader lives a thousand lives<br/>before he dies</h1>
           <p className="px-20 lg:px-72 text-lg text-gray-700">Books are a uniquely portable magic. Books serve to show a man that those original thoughts of his aren’t very new after all. The man who does not read good books is no better than the man who can’t.</p>

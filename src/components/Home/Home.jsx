@@ -7,7 +7,7 @@ import reader from "../../assets/reader.json";
 const Home = () => {
   return (
     <section className="h-[calc(100vh-120px)] py-10">
-      <div className="container mx-auto px-4 sm:px-0">
+      <div className="container mx-auto px-4">
         <div className="sm:flex flex-col sm:flex-row sm:justify-between sm:items-center gap-10 h-[calc(100vh-120px)]">
           <div className="basis-full sm:basis-2/5 mb-20 sm:mb-0">
             <span className="badge">on sale!</span>

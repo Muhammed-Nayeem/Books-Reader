@@ -8,7 +8,7 @@ const BookDetails = () => {
 
   return (
     <section className="py-16">
-      <div className="container mx-auto px-4 sm:px-0">
+      <div className="container mx-auto px-4">
         <div className="p-5 flex flex-col sm:flex-row sm:justify-evenly sm:items-center sm:mx-auto">
           <div className="basis-full sm:basis-2/5 border border-gray-200 rounded mb-5 sm:mb-0">
             <img className="w-full h-full" src={image} alt="Book Image" />
